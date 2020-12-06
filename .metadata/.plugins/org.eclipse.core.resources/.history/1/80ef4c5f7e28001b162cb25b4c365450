@@ -1,0 +1,11 @@
+@import url('common.css');
+body{
+	
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 1px;
+    border-color: white;
+}

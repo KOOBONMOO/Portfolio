@@ -1,0 +1,19 @@
+@import url('common.css');
+body{
+	
+}
+table[Attributes Style] {
+
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 1px;
+    border-color: white;
+    
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Javastudy\JSP\Day85\9.  ID 중복 체크\IDCheck"/>
+			<item value="C:\Javastudy\JSP\Day85\4. File Upload\1. 파일업로드 파싱\FileUploadTest"/>
+			<item value="C:\Users\Administrator.Sc-201912241629\Downloads\새 폴더 (2)"/>
+			<item value="C:\Users\Administrator.Sc-201912241629\Downloads\쌉최종 (2)\구본무"/>
+			<item value="C:\Javastudy\JSP\MVC Model2 회원형 게시판\MemberBoard"/>
+		</list>
+	</section>
+</section>

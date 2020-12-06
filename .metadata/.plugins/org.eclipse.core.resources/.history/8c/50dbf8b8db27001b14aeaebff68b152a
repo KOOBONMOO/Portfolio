@@ -1,0 +1,41 @@
+package koo.bon.moo.command.member;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import koo.bon.moo.command.Command;
+import koo.bon.moo.dao.MemberDAO;
+import koo.bon.moo.dto.MemberDTO;
+
+public class MemberRegisterOKCommand implements Command {
+
+	@Override
+	public void excute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		MemberDAO dao = MemberDAO.getMemberDAO();
+		MemberDTO dto = new MemberDTO();
+		
+		dto.setName(request.getParameter("name"));
+		dto.setId(request.getParameter("id"));
+		dto.setNickname(request.getParameter("nickname"));
+		dto.setPw(request.getParameter("pw"));
+		dto.setEmail(request.getParameter("email"));
+		dto.setPostcode(request.getParameter("postcode"));
+		dto.setRoadAddress(request.getParameter("roadAddress"));
+		dto.setJibunAddress(request.getParameter("jibunAddress"));
+		dto.setDetailAddress(request.getParameter("detailAddress"));
+		dto.setExtraAddress(request.getParameter("extraAddress"));
+		dto.setBirthYear( Integer.parseInt(request.getParameter("birthYear")) );
+		dto.setBirthMonth( Integer.parseInt(request.getParameter("birthMonth")) );
+		dto.setBirthDate( Integer.parseInt(request.getParameter("birthDate")) );
+		dto.setCellphone(request.getParameter("cellphone"));
+		dto.setGender(request.getParameter("gender"));
+		dao.memberRegisterDAO(dto);
+		System.out.println(request.getParameter("roadAddress"));
+		System.out.println(request.getParameter("jibunAddress"));
+		System.out.println(request.getParameter("detailAddress"));
+		System.out.println(request.getParameter("name"));
+	}
+}

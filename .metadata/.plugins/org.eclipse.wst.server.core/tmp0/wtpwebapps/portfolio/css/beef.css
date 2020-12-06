@@ -1,0 +1,58 @@
+@import url('common.css');
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_a {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main_a img{
+    width: 100%;
+}
+.text{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 50px 0;
+}
+.text h2{
+    margin: 0;
+}
+.text p{
+    margin: 0;
+}
+.main_b {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.main_b ul {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.main_b ul li {
+    width: 30%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.main_b ul li figure img{
+    width: 100%;
+}
+
+.main_b figcaption p{
+    width: 90%;
+    text-align: right;
+}

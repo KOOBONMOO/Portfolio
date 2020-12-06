@@ -1,0 +1,24 @@
+/*body {}
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    
+}
+header>h1 {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+header {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    left: 40px;
+    border: 1px solid black;
+}
+*/
+.empty {
+	padding:600px;
+}

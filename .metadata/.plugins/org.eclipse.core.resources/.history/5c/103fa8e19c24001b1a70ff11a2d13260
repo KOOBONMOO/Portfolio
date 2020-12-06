@@ -1,0 +1,58 @@
+body {}
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    
+}
+header>h1 {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+header {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    left: 40px;
+    border: 1px solid black;
+}
+/*
+#foot1 {
+    position: absolute;
+    left: 100px;
+    width: 30%;
+    margin: 0 0;
+}
+#foot2 {
+    position: absolute;
+    left: 400px;
+    width: 30%;
+    margin: 0 0;  
+}
+#foot3 {
+    position: absolute;
+    left: 700px;
+    width: 30%;
+    margin: 0 0;  
+}
+#foot4 {
+    position: absolute;
+    left: 1000px;
+    width: 30%;
+    margin: 0 0;  
+}
+#foot1 > ul > li {
+    list-style: none;
+}
+#foot2 > ul > li {
+    list-style: none;
+}
+#foot3 > ul > li {
+    list-style: none;
+}
+#foot4 > ul > li {
+    list-style: none;
+}
+*/

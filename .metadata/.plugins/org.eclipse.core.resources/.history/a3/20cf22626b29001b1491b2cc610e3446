@@ -1,0 +1,173 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="HTML Study">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Bruce">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미트미트 메인!!!</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<%@ include file="../Header/header.jsp" %>
+<!-- 
+<header>
+<div class="titleBox">
+    <div class="title">
+		<c:if test="${userInfo eq null }">
+			<a href="Member/login.jsp">로그인</a>&nbsp&nbsp&nbsp&nbsp
+			<a href="Member/memberRegister.jsp">회원가입</a>
+		</c:if>
+
+	</div>
+	<c:if test="${userInfo ne null }">
+		${userInfo.id } 님 환영합니다.<br/>
+		<a href="logout.do">로그아웃</a>&nbsp&nbsp&nbsp&nbsp
+		<a href="Member/memberModify.do">회원정보 수정</a>&nbsp&nbsp&nbsp&nbsp
+		<a href="board/list.jsp">고객센터</a>
+	</c:if>
+</div>        
+        <div class="logo">
+            <h1>
+				<a href="main.jsp">Meet<br>Meat</a>
+			</h1>
+        </div>
+<div class="head1">
+            <nav>
+            <ul class="bar">
+            
+				<li class="bigMenu1">
+					<a href="Beef/beef.jsp">소고기
+						<div class="smallMenu1">
+							<a href="importProductBeef.jsp">수입산</a> 
+							<a href="koreanBeef.jsp">한우</a>
+						</div>
+					</a>
+				</li>
+				
+				<li class="bigMenu2">
+					<a href="Pork/pork.jsp">돼지고기</a> 
+					<div class="smallMenu2">
+						<a href="importProductFrok.jsp">수입산</a> 
+						<a href="americanBeef.jsp">한돈</a>				
+					</div>
+				</li>
+				<li class="bigMenu3">
+					<a href="Lamb.jsp">양고기</a>
+				</li>
+				<li>
+					<a href="#">STORE</a>
+				</li>
+            </ul>
+        </nav>
+</div>
+    </header>
+-->
+    <main>
+        <div class="text">
+              <p>미트미트는 세일중</p>
+            <h2>지금이 먹어볼 기회! 놓치지 마세요</h2>
+        </div>
+        <div class="main_b">
+
+            <ul>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000002122"><img src="../img/1.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>꽃갈비살(1~2인분) 300g<br>
+                                23,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000010868&mtn=1%5E%7C%5E%ED%91%B8%EB%93%9C%EC%9E%A5%EC%9D%80+%EC%84%B8%EC%9D%BC%EC%A4%91%5E%7C%5En"><img src="../img/tomahawk.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>토마호크 스테이크(1~2인분) 300g<br>
+                                25,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000004235"><img src="../img/3.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>마왕 스테이크(4~5인분) 850g<br>
+                                28,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000000136"><img src="../img/4.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>프리미엄 삼겹살 500g (1~2인분)<br>
+                                5,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000002851"><img src="../img/5.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>목살 스테이크(1~2인분) 500g<br>
+                                7,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000010871"><img src="../img/6.jpg" alt=""></a></figure>
+                    <figcaption>
+                        <p><b>프리미엄 갈매기살(1~2) 400g<br>
+                                9,700원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+            </ul>
+
+        </div>
+        </main>
+<!-- <footer>
+ <hr>
+ <div class="footBox">
+ <div class="footBox1">
+            <ul>
+                <li>
+                <p><b>공지사항</b></p> 
+                <p>미트미트 개인정보처리방침 개정 안내</p>
+                </li>
+                <li>
+                    <p><b>광고문의</b></p>
+                   <p>kudam92@naver.com</p> 
+               </li>
+               <li>
+                    <p><b>사업장</b></p>
+                   <p>서울 강남구 테헤란로5길 24 5층 504호</p> 
+               </li>
+                <li>
+                    <p><b>전화문의</b></p>
+                   <p>010-7147-7814</p> 
+               </li>
+            </ul>
+ </div>
+         
+		<div class="footBox2">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt=""></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com/"><img src="img/twitter.jpg" alt=""></a>
+				</li>
+			</ul>
+		</div>
+ </div>
+</footer> -->
+<%@ include file="../Footer/footer.jsp" %>
+</body>
+</html>

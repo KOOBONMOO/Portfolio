@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="HTML Study">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Bruce">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<%@ include file="../Header/header.jsp" %>
+	<main>
+	<div class="main_a">
+		<img src="../img/beefMain.jpg" />
+	</div>
+		<div class="main_b">
+		            <ul>
+                <li>
+                    <figure><a href="#"><img src="../img/Beef_Thin_Skirt .jpg"></a></figure>
+                    <figcaption>
+                        <p><b>[블랙비프] 냉장 안창살 200g<br>
+                                14,900원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="https://www.foodjang.com/goods/goods_view.php?goodsNo=1000000771"><img src="../img/rib_eye.jpg"></a></figure>
+                    <figcaption>
+                        <p><b>[블랙비프] 냉장 소갈비살 350g<br>
+                                18,900원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+                <li>
+                    <figure><a href="#"><img src="../img/sirloin.jpg"></a></figure>
+                    <figcaption>
+                        <p><b>[블랙비프] 냉장 소목등심 스테이크 380g<br>
+                                12,500원<br></b></p>
+                        <p>12월 31일까지 주문시 1,000원 할인쿠폰 증정!</p>
+                    </figcaption>
+                </li>
+		</div>
+	</main>
+	<%@ include file="../Footer/footer.jsp" %>
+</body>
+</html>

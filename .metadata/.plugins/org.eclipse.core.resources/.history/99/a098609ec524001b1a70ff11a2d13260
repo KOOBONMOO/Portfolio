@@ -1,0 +1,29 @@
+body {}
+header {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    
+}
+header>h1 {
+    position: absolute;
+    left: 130px;
+    top: 100px;
+    
+        display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+header {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    left: 40px;
+    border: 1px solid black;
+}
+
